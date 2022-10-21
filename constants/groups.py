@@ -1,0 +1,13 @@
+class GroupPageConsts:
+    CREATE_NEW_GROUP_BUTTON_XPATH = './/*[@aria-label="Create New Group"]'
+    SEARCH_GROUPS_FIELD_XPATH = './/input[@aria-label="Search groups"]'
+    GROUP_NAME_INPUT_FIELD_XPATH = './/*[@aria-label="Group name"]'
+    CHOOSE_PRIVACY_MENU_XPATH = './/label[@aria-label="Choose privacy"]'
+    PUBLIC_GROUP_OPTION_XPATH = './/*[text()="Public"]'
+    PRIVATE_GROUP_OPTION_XPATH = './/*[text()="Private"]'
+    CREATE_GROUP_BUTTON_XPATH = './/div[@aria-label="Create"]'
+    MORE_BUTTON_XPATH = './/div[@aria-label="More"]'
+    NEW_GROUP_RECOMMENDATION_TEXT_XPATH = './/*[text()="No recommendations to show"]'
+    LEAVE_GROUP_BUTTON_XPATH = './/*[text()="Leave group"]'
+    LEAVE_GROUP_CONFIRMATION_BUTTON_XPATH = './/*[text()="Leave Group"]'
+    CLOSE_THE_NOTIFICATION_BUTTON_XPATH = './/*[@aria-label="Close Tab"]'
